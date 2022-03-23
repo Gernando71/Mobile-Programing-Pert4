@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/materi_alert_toast"
+        android:textColor="#0F0"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="361dp"
+        android:layout_below="@+id/title_view"
+        android:layout_marginTop="-1dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_rounded"
+            android:drawableLeft="@drawable/ic_alert"
+            android:padding="5dp"
+            android:text="@string/alert_1"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_rounded"
+            android:drawableLeft="@drawable/ic_alert"
+            android:padding="5dp"
+            android:text="@string/alert_2"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_rounded"
+            android:drawableLeft="@drawable/ic_alert"
+            android:padding="5dp"
+            android:text="@string/alert_3"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="66dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="13dp"
+            android:background="@drawable/button_rounded"
+            android:drawableStart="@drawable/ic_alert"
+            android:padding="5dp"
+            android:text="@string/toast"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/durasiSpinner"
+            android:layout_width="128dp"
+            android:layout_height="66dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="15sp"
+            android:text="@string/durasi"
+            android:textColor="#0F0"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="173dp"
+            android:layout_height="75dp"
+            android:layout_row="1"
+            android:layout_column="1" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/grid"
+        android:layout_marginTop="106dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/button_rounded"
+        android:drawableStart="@drawable/ic_alert"
+        android:padding="5dp"
+        android:text="@string/tutup"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

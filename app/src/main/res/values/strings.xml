@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AhmadGernando</string>
+    <string name="materi_alert_toast">Alert and Toast</string>
+    <string name="alert_1">Alert 1</string>
+    <string name="alert_2">Alert 2</string>
+    <string name="alert_3">Alert 3</string>
+    <string name="durasi">Duration</string>
+    <string name="toast">Toast</string>
+    <string name="tutup">Close</string>
+</resources>
